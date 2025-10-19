@@ -1,0 +1,36 @@
+# Keterangan dan Log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Folder dependensi
+node_modules
+jspm_packages
+
+# File environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.envrc
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
+
+# Folder build dan cache
+dist
+build
+.npm
+.yarn-cache
+
+# Data wallet sensitif
+/VanitywalletData.js
+/bulkwalletData.js
+*.csv
+*.txt

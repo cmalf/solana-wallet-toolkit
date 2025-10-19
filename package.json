@@ -1,0 +1,38 @@
+{
+  "name": "solana-wallet-toolkit",
+  "version": "1.0.0",
+  "description": "A user-friendly, multi-language CLI toolkit for generating Solana wallets, including custom vanity and bulk addresses.",
+  "main": "index.js",
+  "bin": {
+    "sol-toolkit": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "solana",
+    "wallet",
+    "generator",
+    "vanity-address",
+    "bulk-wallet",
+    "cli",
+    "cryptocurrency",
+    "nodejs"
+  ],
+  "author": "cmalf",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmalf/solana-wallet-toolkit.git"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "bip39": "^3.1.0",
+    "bs58": "^6.0.0",
+    "ed25519-hd-key": "^1.3.0",
+    "inquirer": "8.2.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

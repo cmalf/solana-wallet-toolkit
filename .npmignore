@@ -1,0 +1,21 @@
+# Log dan file environment
+*.log
+.env
+
+# File Git
+.git
+.gitignore
+
+# File OS
+.DS_Store
+
+# Screenshot/ex
+*.png
+*.jpg
+
+# File data
+*.csv
+*.txt
+walletData.js
+bulkwalletData.js
+VanitywalletData.js
